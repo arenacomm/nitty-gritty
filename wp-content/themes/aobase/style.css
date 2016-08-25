@@ -1,0 +1,156 @@
+/*
+Theme Name: AO Base
+Theme URI: http://underscores.me/
+Author: Cee
+Author URI: http://chasecee.com
+Description: Base theme for Arena Online websites.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: aobase
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+AO Base is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*
+BASICS
+*/
+html {
+  	text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+body{
+		font-family: "proxima-nova", Verdana, Geneva, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+		font-family: "proxima-nova", Verdana, Geneva, sans-serif;
+}
+img {
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+}
+img[class*="wp-image-"] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+a, .transition{
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+/*
+BOOTSTRAP NAVBAR OVERRIDES
+*/
+.navbar {
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+}
+.navbar a{
+  color:white;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.navbar-nav>li.active>a {
+    background: rgba(0, 0, 0, 0.25);
+}
+.navbar-toggle {
+    background: transparent;
+    border-color: rgba(255, 255, 255, .5);
+}
+.navbar-toggle .icon-bar{
+    background: rgba(255, 255, 255, 1);
+}
+.navbar-collapse{
+    border-color: transparent;
+}
+.navbar-brand>img{
+    width: 200px;
+}
+header#masthead{
+}
+footer#colophon a{
+	color:white;
+}
+#masthead, #colophon {
+    background: #f16666;
+}
+/*
+UTILITY CLASSES
+*/
+.padder {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.padder_top {
+    padding-top: 50px;
+}
+.padder_bot {
+    padding-bottom: 50px;
+}
+.padder_lg {
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.padder_lg_bot {
+    padding-bottom: 100px;
+}
+.padder_lg_top {
+    padding-bottom: 100px;
+}
+.padder_sm {
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+.padder_sm_bot {
+    padding-bottom: 25px;
+}
+.padder_sm_top {
+    padding-top:25px;
+}
+
+
+
+/*
+RESPONSIVENESS
+*/
+@media only screen and ( max-width: 1200px ) {
+
+header{}
+
+}
+@media only screen and ( max-width: 992px ) {
+
+header{}
+
+}
+@media only screen and ( max-width: 767px ) {
+
+header{}
+
+}
+@media only screen and ( max-width: 479px ) {
+
+header{}
+
+}
