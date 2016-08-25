@@ -1,1 +1,6 @@
-aaaaaaaaaaaaaaaaaaaaaahhhhhhhhhhh This is a cool test.
+Hi!
+
+This is a cool test. hi
+
+this is what you have to deal with
+>>>>>>> dfdd61d4f853c3fcdc278e67676294b74419ac49
